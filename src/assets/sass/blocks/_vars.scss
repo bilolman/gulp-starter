@@ -1,0 +1,64 @@
+// fonts
+
+// colors
+
+// responsive
+@mixin media-1320 {
+	@media (max-width: 1320px) {
+		@content;
+	}
+}
+
+@mixin media-1200 {
+	@media (max-width: 1200px) {
+		@content;
+	}
+}
+
+@mixin media-1080 {
+	@media (max-width: 1080px) {
+		@content;
+	}
+}
+
+@mixin media-992 {
+	@media (max-width: 992px) {
+		@content;
+	}
+}
+
+@mixin media-768 {
+	@media (max-width: 768px) {
+		@content;
+	}
+}
+
+@mixin media-576 {
+	@media (max-width: 576px) {
+		@content;
+	}
+}
+
+@mixin media-480 {
+	@media (max-width: 480px) {
+		@content;
+	}
+}
+
+@mixin media-360 {
+	@media (max-width: 360px) {
+		@content;
+	}
+}
+
+// image
+@mixin image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
