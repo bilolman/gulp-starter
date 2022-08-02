@@ -169,7 +169,7 @@ function devFonts() {
 }
 
 function buildFonts() {
-	return src(`${path.dist.fonts}/*.{eot,woff,woff2,ttf,otf,svg}`, {
+	return src(`${path.dist.fonts}/**/*.{eot,woff,woff2,ttf,otf,svg}`, {
 		base: './dist/assets/fonts/',
 	}).pipe(dest(path.build.fonts))
 }
